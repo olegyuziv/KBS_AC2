@@ -1,0 +1,43 @@
+Effective management of a building's climate includes maintaining optimal temperature and air
+quality alongside ensuring energy efficiency. Beyond climate control, the smart building system
+must promptly detect and signal alarms for security and infrastructure issues. Our goal is to
+develop an expert system that integrates these functions, offering precise control and fast
+responses. This integration aims to create a comfortable and secure environment while
+optimizing energy usage and mitigating potential risks.
+The rules defined by the building automation specialists for our expert system are as follows:
+Artificial light is switched on in a room when:
+- The building is open for the specified day and hour
+- The room is occupied
+- There is no natural light in room at the specified hour
+Ventilation is activated in a room when:
+- The building is open for the specified day and hour
+- The room is occupied
+- The room does not have windows or the weather is not mild
+Air conditioning is activated in a room when:
+- The building is open for the specified day and hour
+- The room is occupied
+- The weather is hot
+- Room temperature is above 27 degrees Celsius
+Heating is activated in a room when:
+- The building is open for the specified day and hour
+- The room is occupied
+- The weather is cold
+- Room temperature is below 19 degrees Celsius
+There is natural light in a room when:
+- It is morning (hour is between 9 and 16)
+- The room has at least one window
+A building is open when:
+- It is workday (day is between Monday and Friday)
+- It is work time (hour is between 8 and 20)
+Floor alarm is triggered when:
+- The building is not open
+- There is a window open in any of the rooms
+Building alarm is triggered when:
+- The building is not open
+- There is any room that it is occupied
+It is considered:
+• Mild weather when the temperature is greater than 17C and less than 31C.
+• Cold weather when the temperature is less than or equal to 17C.
+• Hot weather when the temperature is greater than or equal to 31C.
+Input: Feel free to choose the format of the input to the program. For example: hardcoded string
+or list of strings, JSON file, txt file, user input (probably impractical for testing purposes).

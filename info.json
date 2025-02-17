@@ -1,0 +1,38 @@
+{
+    "building": {
+        "floors": {
+            "floor1": {
+                "rooms": {
+                    "room1": {
+                        "windows": ["window1", "window2"],
+                        "occupied": true,
+                        "temperature": 14
+                    },
+                    "room2": {
+                        "windows": [],
+                        "occupied": true,
+                        "temperature": 25
+                    }
+                }
+            },
+            "floor2": {
+                "rooms": {
+                    "room3": {
+                        "windows": [],
+                        "occupied": false,
+                        "temperature": 15
+                    }
+                }
+            }
+        }
+    },
+    "weather": {
+        "temperature": 12,
+        "day": "Monday",
+        "time": 10
+    },
+    "windows": {
+        "window1": "open",
+        "window2": "closed"
+    }
+}
